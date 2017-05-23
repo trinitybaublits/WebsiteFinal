@@ -3,6 +3,7 @@
 
 
 
+
 nav {
 	background-color: white; 
 	width:100%;
@@ -53,15 +54,42 @@ h1 {
 
 }
 
-.textbody, q{
-	font-size: 30px;
+h2{
+	font-size: 40px;
 	padding-left: 35%;
-	text-color: aqua;
+	font: aqua;
+	font-family: 'Euphoria Script', cursive;
+	color: darkorange;
+		
+}
+h3{
+	font-size: 30px;
+	font-family: urbana, sans-serif;
+	font-weight: 100;
 	
 }
+
 .textbody, div{
-	align-content: center;
-	background-color: ghostwhite;
+	
+	background-color: #e6f2ff;
+	
+}
+
+.textbody, p{
+	font-size: 25px;
+	font-family: 'Crimson Text', serif;
+	
+}
+.textbody, img{
+	float: left;
+	padding-right: 20px;
+}
+.seconddiv {
+	background-image: url(../images/trinview.jpg);
+	background-size: cover;
+	position:absolute;
+	width: auto;
+	height: auto
 	
 }
 	
