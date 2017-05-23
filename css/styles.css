@@ -46,7 +46,7 @@ width: 100%;
 	
 }
 	
-h1 {
+.about h1 {
 	font-family: urbana, sans-serif;
 	font-weight: 100;
 	padding-left: 40%;
@@ -54,7 +54,7 @@ h1 {
 
 }
 
-h2{
+.about h2{
 	font-size: 40px;
 	padding-left: 35%;
 	font: aqua;
@@ -62,7 +62,7 @@ h2{
 	color: darkorange;
 		
 }
-h3{
+.about h3{
 	font-size: 30px;
 	font-family: urbana, sans-serif;
 	font-weight: 100;
@@ -70,15 +70,16 @@ h3{
 	
 }
 
-.textbody {
+.about {
 	background-color: #e6f2ff;
-	
+	margin-top:0;
+	margin-bottom: 0;
 }
 
-.textbody p{
+.about p{
 	font-size: 25px;
 	font-family: 'Crimson Text', serif;
-	float: left;
+	
 }
 
 
@@ -89,13 +90,13 @@ h3{
 	width: 100%;
 	
 }
-.visiter{
+.visitor{
 	background:rgba(255,255,255,0.2);
 	margin:200px;
 	margin-top:0;
 	
 }
-.visiter h3{
+.visitor h3{
 	text-align: center;
 	font-size: 40px;
 	font-family: urbana, sans-serif;
@@ -103,7 +104,7 @@ h3{
 	color: white;
 	margin:0;
 }
-.visiter p{
+.visitor p{
 	text-align: center;
 	padding: 20px;
 	font-size: 30px;
