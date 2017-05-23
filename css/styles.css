@@ -66,33 +66,49 @@ h3{
 	font-size: 30px;
 	font-family: urbana, sans-serif;
 	font-weight: 100;
+	margin: 0;
 	
 }
 
-.textbody, div{
-	
+.textbody {
 	background-color: #e6f2ff;
 	
 }
 
-.textbody, p{
+.textbody p{
 	font-size: 25px;
 	font-family: 'Crimson Text', serif;
-	
-}
-.textbody, img{
 	float: left;
-	padding-right: 20px;
 }
-.seconddiv {
+
+
+.exploremore {
 	background-image: url(../images/trinview.jpg);
 	background-size: cover;
-	position:absolute;
-	width: auto;
-	height: auto
+	height: 1000px;
+	width: 100%;
 	
 }
+.visiter{
+	background:rgba(255,255,255,0.2);
+	margin:200px;
+	margin-top:0;
 	
+}
+.visiter h3{
+	text-align: center;
+	font-size: 40px;
+	font-family: urbana, sans-serif;
+	font-weight: 100;
+	color: white;
+	margin:0;
+}
+.visiter p{
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+	font-family: 'Crimson Text', serif;
+}
 	
 	
 	
