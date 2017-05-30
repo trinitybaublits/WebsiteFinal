@@ -8,13 +8,13 @@ nav {
 	background-color: white; 
 	width:100%;
 	height: 75px;
-	position: absolute;
 	font-family: urbana, sans-serif;
 	font-weight: 200;
 	
 	
 	/*made position fixed so nav bar will move with the page*/
 }
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -25,13 +25,17 @@ ul {
 a:link {
 	list-style-type: none;
 	text-decoration: none;
-	color: black;/*made text black with a white hover*/
+	color: black;
+	/*made text black with a white hover*/
 	
+}
+a:visited {
+	color:black;
 }
 a:hover {
 	color: skyblue;
 }
-	
+
 li{
 	float: left;
 	display: block;
@@ -116,7 +120,26 @@ li{
 	font-family: 'Crimson Text', serif;
 }
 	
+/*--Start css for Food.html--*/
+
 	
 	
+.foodtitle h5 {
 	
+	color: black;
+	font-size:40px;
+	padding-right: 5%;	
+	margin: 0;
+	font-family: 'Crimson Text', serif;
+	
+
+}	
+
+.foodtitle p{
+	font-size:25px;
+	margin: 0;
+	font-family: 'Crimson Text', serif;
+	
+	
+}
 	
