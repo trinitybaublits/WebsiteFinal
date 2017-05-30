@@ -40,16 +40,17 @@ li{
 	font-size: 25px;
 		
 }
-.slideshow{
-width: 100%;
-  
+.slideshow{ 
+	width: 100%;
 	
 }
-	
+
+
 .about h1 {
 	font-family: urbana, sans-serif;
 	font-weight: 100;
 	padding-left: 40%;
+	margin-top: 0;
 	
 
 }
@@ -62,6 +63,7 @@ width: 100%;
 	color: darkorange;
 		
 }
+
 .about h3{
 	font-size: 30px;
 	font-family: urbana, sans-serif;
@@ -79,6 +81,7 @@ width: 100%;
 .about p{
 	font-size: 25px;
 	font-family: 'Crimson Text', serif;
+	margin-bottom: 0;
 	
 }
 
@@ -88,25 +91,27 @@ width: 100%;
 	background-size: cover;
 	height: 1000px;
 	width: 100%;
+	margin-top:0;
 	
 }
 .visitor{
 	background:rgba(255,255,255,0.2);
-	margin:200px;
-	margin-top:0;
+	margin: 0 200px;
 	
 }
-.visitor h3{
+.visitor h4{
 	text-align: center;
 	font-size: 40px;
 	font-family: urbana, sans-serif;
 	font-weight: 100;
 	color: white;
+	padding-top: 10px;
 	margin:0;
+	
 }
 .visitor p{
 	text-align: center;
-	padding: 20px;
+	padding:0 20px;
 	font-size: 30px;
 	font-family: 'Crimson Text', serif;
 }
