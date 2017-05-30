@@ -128,18 +128,32 @@ li{
 	
 	color: black;
 	font-size:40px;
-	padding-right: 5%;	
+	padding-left: 5%;
 	margin: 0;
 	font-family: 'Crimson Text', serif;
 	
 
 }	
-
+.foodtitle img{
+	width: 100%;
+}
+/*put a padding left to have everything slighty hang to the right*/
 .foodtitle p{
 	font-size:25px;
+	padding-left:5%;
 	margin: 0;
+	text-align: left;
 	font-family: 'Crimson Text', serif;
 	
 	
 }
+.foodoptions p{
+	padding-left:5%;
+	font-size: 20px;
+	
+}
+.foodoptions img{
+	padding-left: 5%;
+}
+/*working on aligning photos and text across screen for rows of food options*/
 	
