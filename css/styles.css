@@ -150,10 +150,52 @@ li{
 .foodoptions p{
 	padding-left:5%;
 	font-size: 20px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width:450px;
+	
+	
+}
+.foodtitles p{
+	text-align: center;
 	
 }
 .foodoptions img{
 	padding-left: 5%;
+	width:450px;
+	height:300px;
+	float: left;
+
 }
+
+.post-container {
+    margin: 20px 20px 0 0;  
+    overflow: auto;
+	padding-left: 5%;
+	font-size: 20px;
+	
+}
+.foodimage {
+    float: left;
+}
+.foodimage img {
+    display: block;
+	width:450px;
+	height:300px;
+	margin-right: 10px;
+}
+.foodcontent {
+    margin-left: 450px;
+}
+.foodtitle {
+    font-weight: bold;
+    font-size: 200%
+}
+
+
+
+
+
+
 /*working on aligning photos and text across screen for rows of food options*/
 	
