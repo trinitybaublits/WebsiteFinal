@@ -51,17 +51,19 @@ li{
 
 
 .about h1 {
-	font-family: urbana, sans-serif;
 	font-weight: 100;
-	padding-left: 40%;
+	padding-left: 35%;
 	margin-top: 0;
+	font-size: 60px;
+	font-family: 'Alice', serif;
 	
 
 }
 
 .about h2{
 	font-size: 40px;
-	padding-left: 35%;
+	padding-left: 37%;
+	margin-bottom:0px;
 	font: aqua;
 	font-family: 'Euphoria Script', cursive;
 	color: darkorange;
@@ -72,7 +74,7 @@ li{
 	font-size: 30px;
 	font-family: urbana, sans-serif;
 	font-weight: 100;
-	margin: 0;
+	margin: 0 0;
 	
 }
 
@@ -171,6 +173,7 @@ li{
 .foodcontent {
     margin-left: 450px;
 	font-family: 'Assistant', sans-serif;
+	
 }
 .foodtitle {
     font-weight: bold;
@@ -187,14 +190,14 @@ li{
 /*Below is the start to Explore page*/
 
 /*http://css3.bradshawenterprises.com/cfimg/ used Css for image slider*/
-#cf {
+#imageslider {
   position:relative;
   margin:0 auto; 
 	
 	height:750px;
 }
 
-#cf img {
+#imageslider img {
  	position:absolute;
   	left:0;
 	width:100%;
@@ -222,7 +225,7 @@ opacity:0;
 }
 }
 
-#cf img.top {
+#imageslider img.top {
 animation-name: cfFadeInOut;
 animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
@@ -247,7 +250,10 @@ animation-direction: alternate;
 	
 }
 
-
+.explorecontent {
+    margin-left: 450px;
+	font-family: 'Assistant', sans-serif;
+	font-size: 25px;
 
 
 
