@@ -44,156 +44,11 @@ li{
 	font-size: 25px;
 		
 }
-.slideshow{ 
-	width: 100%;
-	
-}
+/*http://css3.bradshawenterprises.com/cfimg/ used Css for image slider, used both for this page and the home page*/
 
-
-.about h1 {
-	font-weight: 100;
-	padding-left: 35%;
-	margin-top: 0;
-	font-size: 60px;
-	font-family: 'Alice', serif;
-	
-
-}
-
-.about h2{
-	font-size: 40px;
-	padding-left: 37%;
-	margin-bottom:0px;
-	font: aqua;
-	font-family: 'Euphoria Script', cursive;
-	color: darkorange;
-		
-}
-
-.about h3{
-	font-size: 30px;
-	font-family: urbana, sans-serif;
-	font-weight: 100;
-	margin: 0 0;
-	
-}
-
-.about {
-	background-color: #e6f2ff;
-	margin-top:0;
-	margin-bottom: 0;
-}
-
-.about p{
-	font-size: 25px;
-	font-family: 'Crimson Text', serif;
-	margin-bottom: 0;
-	
-}
-
-
-.exploremore {
-	background-image: url(../images/trinview.jpg);
-	background-size: cover;
-	height: 1000px;
-	width: 100%;
-	margin-top:0;
-	
-}
-.visitor{
-	background:rgba(255,255,255,0.2);
-	margin: 0 200px;
-	
-}
-.visitor h4{
-	text-align: center;
-	font-size: 40px;
-	font-family: urbana, sans-serif;
-	font-weight: 100;
-	color: white;
-	padding-top: 10px;
-	margin:0;
-	
-}
-.visitor p{
-	text-align: center;
-	padding:0 20px;
-	font-size: 30px;
-	font-family: 'Crimson Text', serif;
-}
-	
-/*--Start css for Food.html--*/
-
-	
-	
-.foodtitles h5 {
-	
-	color: black;
-	font-size:40px;
-	padding-left: 5%;
-	margin: 0;
-	font-family: 'Alice', serif;
-	margin-top:5px;
-	
-
-}	
-.foodtitles img{
-	width: 100%;
-	margin-top:0;
-}
-/*put a padding left to have everything slighty hang to the right*/
-.foodtitles p{
-	font-size:25px;
-	padding-left:5%;
-	margin: 0;
-	text-align: left;
-	font-family:'Assistant', sans-serif;
-	
-	
-}
-
-
-
-
-.post-container {
-    margin: 20px 20px 0 0;  
-    overflow: auto;
-	padding-left: 5%;
-	font-size: 20px;
-	
-}
-.foodimage {
-    float: left;
-}
-.foodimage img {
-    display: block;
-	width:450px;
-	height:300px;
-	margin-right: 10px;
-}
-.foodcontent {
-    margin-left: 450px;
-	font-family: 'Assistant', sans-serif;
-	
-}
-.foodtitle {
-    font-weight: bold;
-    font-size: 200%;
-	font-family: 'Alice', serif;
-	
-}
-
-.foodlink {
-	font-size: 20px;
-	font-family:'Assistant', sans-serif;
-}
-
-/*Below is the start to Explore page*/
-
-/*http://css3.bradshawenterprises.com/cfimg/ used Css for image slider*/
 #imageslider {
   position:relative;
-  margin:0 auto; 
+  margin:0 -5px;
 	
 	height:750px;
 }
@@ -204,6 +59,7 @@ li{
 	width:100%;
 	height:750px;
 	display: block;
+	
 	
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -230,7 +86,218 @@ opacity:0;
 animation-name: cfFadeInOut;
 animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
-animation-duration: 10s;
+animation-duration: 8s;
+animation-direction: alternate;
+}
+
+.slideshow{ 
+	width: 100%;
+	
+}
+
+
+.about h1 {
+	font-weight: 100;
+	padding-left: 20%;
+	margin-top: 0;
+	font-size: 60px;
+	font-family: 'Alice', serif;
+	
+
+}
+
+.about h2{
+	font-size: 40px;
+	padding-left: 36%;
+	margin-bottom:0px;
+	font: aqua;
+	font-family: 'Euphoria Script', cursive;
+	color: darkorange;
+		
+}
+
+.about h3{
+	font-size: 30px;
+	font-family: 'Alice', serif;
+	font-weight: 100;
+	margin: 0 0;
+	
+}
+
+.about {
+	background-color: #e6f2ff;
+	margin-top:0;
+	margin-bottom: 0;
+	margin:0 -5px;
+}
+
+.about p{
+	font-size: 25px;
+	font-family: 'Crimson Text', serif;
+	margin-bottom: 0;
+	
+}
+.linkwebsite p{
+	width:1150px;
+	padding-left: 70px;
+	font-family: 'Crimson Text', serif;
+	font-size: 30px;
+	margin:5px;
+	margin-top:20px;
+	text-align: center;
+	
+}
+
+
+
+.exploremore {
+	background-image: url(../images/trinview.jpg);
+	background-size: cover;
+	height: 1000px;
+	width: 100%;
+	margin-top:0 -5px;
+	padding:0;
+	
+}
+.visitor{
+	background:rgba(255,255,255,0.2);
+	margin: 0 200px;
+	
+}
+.visitor h4{
+	text-align: center;
+	font-size: 40px;
+	font-family:'Alice', serif;
+	font-weight: 100;
+	color: white;
+	padding-top: 10px;
+	margin:0;
+	
+}
+.visitor p{
+	text-align: center;
+	padding:0 20px;
+	font-size: 30px;
+	font-family: 'Crimson Text', serif;
+}
+	
+/*--Start css for Food.html--*/
+
+.foodtitles{
+	margin: 0 -5px;
+	
+}	
+	
+.foodtitles h5 {
+	
+	color: black;
+	font-size:40px;
+	padding-left: 5%;
+	margin: 0;
+	font-family: 'Alice', serif;
+	margin-top:5px;
+	
+
+}	
+.foodtitles img{
+	width: 100%;
+	margin-top:0;
+	
+}
+/*put a padding left to have everything slighty hang to the right*/
+.foodtitles p{
+	font-size:25px;
+	padding-left:5%;
+	margin: 0;
+	text-align: left;
+	font-family:'Assistant', sans-serif;
+	width: 1100px;
+	
+	
+}
+
+
+
+
+.post-container {
+    margin: 20px 20px 0 0;  
+    overflow: auto;
+	padding-left: 5%;
+	font-size: 20px;
+	
+}
+.foodimage {
+    float: left;
+}
+.foodimage img {
+    display: block;
+	width:450px;
+	height:300px;
+	margin-right: 10px;
+	
+}
+.foodcontent {
+    margin-left: 450px;
+	font-family: 'Assistant', sans-serif;
+	
+	
+}
+.foodtitle {
+    font-weight: bold;
+    font-size: 200%;
+	font-family: 'Alice', serif;
+	
+}
+
+.foodlink {
+	font-size: 20px;
+	font-family:'Assistant', sans-serif;
+}
+
+/*Below is the start to Explore page*/
+
+/*http://css3.bradshawenterprises.com/cfimg/ used Css for image slider, used both for this page and the home page*/
+#imageslider2 {
+  position:relative;
+  margin:0 -5px;
+	
+	height:550px;
+}
+
+#imageslider2 img {
+ 	position:absolute;
+  	left:0;
+	width:100%;
+	height:550px;
+	display: block;
+	
+	
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+@keyframes cfFadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#imageslider2 img.top {
+animation-name: cfFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 8s;
 animation-direction: alternate;
 }
 
@@ -261,18 +328,54 @@ animation-direction: alternate;
 
 
 
-/*going to continue adding content for stay page*/
+/*start of the stay page*/
+
+.staytitle{
+	margin: 0 -5px;
+	padding-top: 0;
+}
+.staytitle img{
+	width: 100%;
+	margin-top:0;
+	display:block;
+	position: relative;
+	
+}
 
 
+.staytitle h2{
+	font-size: 40px;
+	font-family: 'Alice', serif;
+	font-weight: 100;
+	margin-top: 20px;
+	padding-left: 5%;
+	margin-bottom:5px;
+	
+	
+}
+
+/*contents of stay page*/
+
+figure {
+  float: right;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 1em;
+  padding: 0.5em;
+	background-color: #e6f2ff;
+}
+
+figcaption {
+	font-family: 'Assistant', sans-serif;
+	font-size: 15px;
+}
 
 
-
-
-
-
-
-
-
+/*end of website*/
 
 
 
